@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Single Page</title>
 </head>
@@ -100,8 +101,104 @@
 
     </section>
 
+    <section>
+
+        <h3 class="container titulo-depoimentos">Depoimentos de Clientes</h3>
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0"> </li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"> </li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"> </li>
+            </ol>
+        
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/img/depoimentos/depoimento1.png">
+                    <div class="carousel-caption">
+                        <h3>Yuri Padilha</h3>
+                        <p>Gostei muito e achei rápido o serviço.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/img/depoimentos/depoimento2.png">
+                    <div class="carousel-caption">
+                        <h3>Caio Sauzas</h3>
+                        <p>Gostei, competência em primeiro lugar.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/img/depoimentos/depoimento3.png">
+                    <div class="carousel-caption">
+                        <h3>Fernando Stafani</h3>
+                        <p>Gostei muito. Ficou muito bem feito.</p> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container">
+
+        <h2>Vídeo Institucional</h2>
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZY3-MFxVdEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco!</p>
+        <form>
+            <div class="form-group">
+                <label for="contato-name">Nome:</label>
+                <input id="contato-name" class="form-control" type="text" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="contato-email">E-mail:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                <input id="contato-email" class="form-control" type="email" placeholder="Seu email">
+                </div>
+            </div>
+
+            <div class="grupo-radio">
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa" checked>
+                        Pessoa Física
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa">
+                        Pesso Jurídica
+                    </label>
+                </div>
+            </div><!--
+
+            --><select class="contato-select form-control">
+                <option disabled selected>Tipo de Situação</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+                <option>Mansão</option>
+            </select>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+
+        </form>
+    </section>
+
     <script src="/js/jquery.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
     
 </body>
 

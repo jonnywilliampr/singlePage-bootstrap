@@ -34,6 +34,7 @@ header h1 {
 }
 
 .titulo-depoimentos {
+	width: 100%;
 	background-color: #0275D8;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -83,5 +84,4 @@ footer address:last-child {
 		height: 100%;
 	}
 }
-
 
